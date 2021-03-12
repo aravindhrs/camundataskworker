@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: camundataskworker
+    
+  profiles:
+    active:
+    - local  
+
+server:
+  port: 8081
